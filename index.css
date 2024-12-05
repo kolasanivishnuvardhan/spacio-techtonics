@@ -1,0 +1,560 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.nav-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#ffffff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.navbar-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    align-items: center;
+}
+.navbar-options-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-brand-container{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-brand{
+
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.favicon{
+width: 60px;
+height: 60px;
+
+
+}
+.spacio-techtonics{
+    font-family: "Roboto";
+    color: #000000;
+    margin-right: 20px;
+    width: 40px;
+}
+.navbar-options-item{
+    margin: 15px;
+}
+
+.book-appointment{
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #787878;
+    color: #ffffff;
+    font-family: "Roboto";
+    border: none;
+    border-color: transparent;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.navbar-toggler{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+.collapse-img{
+    height: 40px;
+    width: 40px;
+}
+
+.book-an-appointment-container{
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url(image1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.appointment-description{
+    width: 40%;
+    font-family: "Roboto";
+    margin-left: 10px;
+    font-weight: 300;
+
+}
+.facades{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.conception-to-construction{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.book-appointment-btn{
+    background-color: rgb(23, 85, 243);
+    border: none;
+    color: #ffffff;
+    font-family: "Roboto";
+    padding: 10px;
+    border-radius: 8px;
+    margin: 40px 0px 0px 10px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 5px 5px 5px #787878;
+}
+.upright-arrow{
+    height: 20px;
+    width: 20px;
+    margin-left: 2px;
+}
+.we-are-spactio-techtonics-container{
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.we-are-spactio-techtonics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+
+.hr-styling{
+    height: 80px;
+    color: orangered;
+    width: 4px;
+    background-color: orangered;
+    margin-right: 5px;
+    margin-left: 10px;
+    border-color: orangered;
+    border: none;
+}
+.we-are-spactio-techtonics-heading{
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 100;
+}
+.description-items-container{
+    list-style-type:none;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-left: 55%;
+    margin-top: 0px;
+}
+
+.description-item{
+    font-family: "Roboto";
+    color: #000000;
+    margin: 10px 0px 15px 0px;
+    font-size: 18px;
+}
+.custon-programmed{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.more-on-our-expertise-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    box-shadow: 5px 5px 5px #787878;
+    border-radius: 8px;
+}
+
+.more-on-our-expertise{
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 220px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.experience-img{
+    height: 40px;
+    width: 40px;
+    margin-left: 3px;
+}
+.exceptional-facades-delivered-container{
+    display: flex;
+    height: 100vh;
+    background-image: url(SpacioTechTonicsConsultancyV21.png);
+    background-size: cover;
+    width: 100%;
+}
+.carousel{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-description{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.our-presence-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.our-presence-description-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+.our-presence-map-container{
+    width: 50%;
+    background-image: url(map.png);
+    background-size: cover;
+
+}
+.our-presence-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.our-presence-hr{
+    width: 3px;
+    border: none;
+    color: orangered;
+    background-color: orangered;
+    border-color: orangered;
+    height: 40px;
+    margin-right: 2px;
+}
+
+.our-presence-description-para{
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10px;
+}
+.our-presence-countries{
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 18px;
+}
+
+.our-presence-stats-container{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px #787878;
+    border: solid 1px #ffffff;
+    outline: none;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 18px;
+}
+
+.sqft-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 2px;
+}
+
+.sqft{
+    font-family: "Roboto";
+    color: #000000;
+}
+
+.sqft-description-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.sqft-description{
+    font-family: "Roboto";
+    font-size: 12px;
+    width: 120px;
+    text-align: center;
+}
+
+.sqft-expertice{
+    height: 30px;
+    width: 30px;
+    margin-left: 1px;
+    margin-bottom: 2px;
+}
+.latest-work-container{
+    min-height: 100vh;
+    width: 100%;
+}
+.latest-work-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.latest-work-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+}
+.latest-work-hr{
+    width: 4px;
+    height: 50px;
+    margin-right: 2px;
+    margin-left: 10px;
+    color: orangered;
+    background-color: orangered;
+    border-color: orangered;
+}
+.latest-work{
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #000000;
+}
+
+.view-all-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.view-all{
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #000000;
+}
+
+.view-all-expertice{
+    height: 20px;
+    width: 20px;
+    margin-left: 4px;
+}
+
+.carousel-caption{
+    display: flex;
+    flex-direction: row;
+}
+.latest-work-carousel{
+    margin-left: 10px;
+}
+
+.marbled-delhi{
+    border-radius: 12px;
+
+}
+.latest-work-name{
+    font-family: "Roboto";
+    color: #000000;
+}
+
+.insights-container{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.insights-header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+.insights-hr{
+    height: 40px;
+    width: 3px;
+    color: orangered;
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.insights-img{
+    width: 100%;
+}
+
+.innvative-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(SpacioTechTonicsConsultancyV21.png);
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+  }
+
+.innovation{
+    color: #ffffff;
+}
+
+.innovation-lists{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.each-innovation{
+    margin: 10px;
+}
+.menu-icon{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.innovate-with-us{
+    font-family: "Roboto";
+    font-size: 75px;
+    color: #ffffff;
+}
+
+.contact-info{
+    font-family: "Roboto";
+    color: #ffffff;
+}
+.click-here{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.subscribe{
+    margin-left: 70%;
+    
+}
+.keep-in-touch{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #ffffff;
+}
+.input-email{
+    border: solid 1px transparent;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.submit-arrow{
+    height: 20px;
+    width: 20px;
+}
+.form-submit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sing-in-btn{
+    outline: none;
+    border: solid 1px #ffffff;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.social-links{
+    margin-left: 20px;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.insta-icon{
+    height: 20px;
+    width: 20px;
+    margin: 2px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+    min-height: 240px;
+}
+.footer-content{
+    padding-left: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.spacio-techtonics-footer-section{
+    color: #ffffff;
+}
+.company-links-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.company-links{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 55px;
+}
+.footer-links{
+    list-style-type: none;
+    color: #787878;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 250px;
+}
+.phone-icon{
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    border-radius: 20px;
+}
